@@ -30,9 +30,9 @@ We have extended this demo (originally from https://github.com/IBM/fabric-contra
 5) To run the Express API server, use the script run_server.sh script that also sets required environment variables . 
 
 Port info:
-  Org1 Angular server: 4201     Org1 API server: 3001
-  Org2 Angular server: 4202     Org2 API server: 3002
-  Org3 Angular server: 4203     Org3 API server: 3003 
+  * Org1 Angular server: 4201     Org1 API server: 3001
+  * Org2 Angular server: 4202     Org2 API server: 3002
+  * Org3 Angular server: 4203     Org3 API server: 3003 
 
 6) To run the Angular server, specify the PORT such as:    ng serve --port 420X   where X=1 for Org1, where X=2 for Org2, etc.
 
