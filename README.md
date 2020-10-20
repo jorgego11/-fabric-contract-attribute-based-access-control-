@@ -23,7 +23,7 @@ We have extended this demo (originally from https://github.com/IBM/fabric-contra
 2) Apply this fix to IBP connection profile. (Probably this is required because we are still using SDK "fabric-ca-client": "1.4.0", "fabric-client": "1.4.0",  "fabric-network": "1.4.0")
   change tlsCACerts to a simple string instead of an array, as described here https://github.com/IBM/evote/issues/41#issuecomment-651925530
 
-3) Update chaincode supplychaincontracts.js at line 554 (read the inline comments)
+3) Update chaincode supplychaincontracts.js at line 566 to bypass error (read the inline comments)
 
 4) For IBP, the client app will use the ../gateway/ibp folder.  In this folder we need to copy the IBP connection profile and update config.json accordingly.
 
