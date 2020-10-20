@@ -1,0 +1,7 @@
+{
+   "connection_profile_filename":"../../gateway/ibp/fabric_connection.json",
+    "channel_name":"channel1",
+    "smart_contract_name":"gensupplychainnet",
+    "wallet":"../../gateway/ibp/gen_ibp_wallet",
+    "peerForEventsSubscription": "ibp-jorge-peer31-peer.ibp25-dal10-jorge-bd8e586d66eff81119bfe4722b13dbd4-0000.us-south.containers.appdomain.cloud:443"
+}
